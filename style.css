@@ -1004,6 +1004,187 @@ nav ul li a {
 
 }
 
+/* ================= MOBILE RESPONSIVE FIX (ONLY) ================= */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ---------------- HERO FIX ---------------- */
+
+  .hero {
+    flex-direction: column;
+    padding: 100px 20px 60px;
+    text-align: center;
+  }
+
+  .hero-text {
+    margin-right: 0 !important;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .hero-text p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .hero-img img {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* ---------------- ABOUT FIX ---------------- */
+
+  .about-section {
+    padding: 40px 20px;
+  }
+
+  .about-container {
+    margin-bottom: 30px !important;
+    gap: 15px;
+  }
+
+  .about-tag {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .about-title {
+    text-align: center !important;
+    margin: 0 !important;
+    font-size: 28px;
+  }
+
+  .about-right p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  /* Resume + Icons Fix */
+
+  .about-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .about-links img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .icon-links {
+    margin: 0;
+  }
+
+  .icon-lin {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  /* ---------------- SKILLS FIX ---------------- */
+
+  .skills-section {
+    padding: 40px 20px 80px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .skill-column h3 {
+    text-align: center;
+  }
+
+  /* ---------------- EDUCATION FIX ---------------- */
+
+  .education-section {
+    padding: 40px 20px 80px;
+  }
+
+  .edu-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .edu-divider {
+    display: none;
+  }
+
+  .edu-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* ---------------- PROJECT FIX ---------------- */
+
+  .project-section {
+    padding: 40px 20px;
+  }
+
+  .project-container,
+  .project-con {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .project-content h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .project-content p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .project-buttons {
+    justify-content: center;
+  }
+
+  /* ---------------- CONTACT FIX ---------------- */
+
+  .contact-section {
+    padding: 40px 20px;
+  }
+
+  .contact-container {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .contact-details {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .contact-item {
+    justify-content: center;
+  }
+
+  .contact-text {
+    text-align: center;
+  }
+
+  .contact-cta h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+}
 
 
 
