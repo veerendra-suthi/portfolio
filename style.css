@@ -952,6 +952,63 @@ nav ul li a {
   }
 
 }
+/* ================= MOBILE FIXES ONLY ================= */
+@media (max-width: 768px) {
+
+  /* GLOBAL SAFE PADDING */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ---------- ABOUT SECTION ---------- */
+
+  .about-section {
+    padding: 40px 20px !important;
+  }
+
+  .about-container {
+    margin-bottom: 40px !important;
+    gap: 20px;
+  }
+
+  .about-title {
+    text-align: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    font-size: 30px;
+  }
+
+  .about-right p {
+    max-width: 100% !important;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  /* Fix icons + resume row overflow */
+  .about-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .about-links img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .icon-links {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .icon-lin {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+}
+
 
 
 
