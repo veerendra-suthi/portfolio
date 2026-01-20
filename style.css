@@ -955,11 +955,6 @@ nav ul li a {
 /* ================= MOBILE FIXES ONLY ================= */
 @media (max-width: 768px) {
 
-  /* GLOBAL SAFE PADDING */
-  body {
-    overflow-x: hidden;
-  }
-
   /* ---------- ABOUT SECTION ---------- */
 
   .about-section {
@@ -1008,6 +1003,7 @@ nav ul li a {
   }
 
 }
+
 
 
 
