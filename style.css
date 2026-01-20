@@ -744,13 +744,6 @@ nav ul li a {
   color: #f7c948;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .contact-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .contact-cta h2 {
     font-size: 38px;
   }
@@ -798,3 +791,4 @@ nav ul li a {
     transform: translateX(0);
   }
 }
+
