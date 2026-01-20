@@ -787,3 +787,171 @@ nav ul li a {
 }
 
 
+/* ================= MOBILE FIX ONLY ================= */
+@media (max-width: 768px) {
+
+  /* GLOBAL */
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* NAVBAR */
+  nav {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    padding: 120px 0 60px;
+    gap: 30px;
+  }
+
+  .hero-text {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .scroll-down {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* ABOUT */
+  .about-section {
+    padding: 60px 20px;
+  }
+
+  .about-container {
+    margin-bottom: 0;
+    gap: 40px;
+  }
+
+  .about-title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .about-right p {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .about-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* SKILLS */
+  .skills-section {
+    padding: 60px 20px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .skill-column h3 {
+    text-align: center;
+  }
+
+  /* EDUCATION */
+  .education-section {
+    padding: 60px 20px;
+  }
+
+  .edu-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .edu-divider {
+    display: none;
+  }
+
+  /* PROJECTS */
+  .project-container,
+  .project-con {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .project-content h2 {
+    font-size: 24px;
+  }
+
+  .project-buttons {
+    justify-content: center;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    padding: 60px 20px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contact-details {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .contact-item {
+    justify-content: center;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .contact-text a,
+  .contact-text .label {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-cta h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+}
+
+
+
