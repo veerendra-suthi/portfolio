@@ -613,12 +613,6 @@ nav ul li a {
   font-size: 16px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
-    .project-container {
-        flex-direction: column;
-    }
-}
 /* ================= PROJECT ANIMATIONS ================= */
 
 .animate {
@@ -791,4 +785,5 @@ nav ul li a {
     transform: translateX(0);
   }
 }
+
 
